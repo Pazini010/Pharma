@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PharmaSys</title>
+  <link rel="stylesheet" href="css/login.css">
+  <script defer src="login.js"></script>
+</head>
+<div class="login-container">
+  <div class="login-card">
+    <div class="logo">
+      <img src="img/pharmasys_transparente.png" alt="PharmaSys Logo">
+      <h2>Login</h2>
+    </div>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="Ni"></label>
+        <input type="text" id="ni" name="ni" required autocomplete="username" inputmode="numeric" placeholder="N.I">
+      </div>
+      <div class="form-group">
+        <label for="password"></label>
+        <input type="password" id="password" name="password" required autocomplete="current-password" inputmode="numeric" placeholder="Senha">
+      </div>
+      <button type="submit" class="login-button">Entrar</button>
+      <p id="errorMessenge" class="error-message"></p>
+    </form>
+  </div>
+</div>
+<body>
+</html>

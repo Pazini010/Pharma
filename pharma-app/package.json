@@ -1,0 +1,16 @@
+{
+  "name": "pharma-desktop-app",
+  "version": "1.0.0",
+  "description": "PharmaSys Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^38.2.0"
+  }
+}

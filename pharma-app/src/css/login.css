@@ -1,0 +1,101 @@
+/* Variáveis */
+:root {
+    --purple-dark: #4A306D;
+    --purple-light: #6A5ACD;
+    --white: #ffffff;
+    --gray-light: #f0f2f5;
+    --red-error: #e74c3c;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--gray-light); /* Fundo claro */
+    color: #333;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px; /* Largura máxima do card de login */
+}
+
+.login-card {
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 300px; /* Tamanho do logo */
+    height: 300px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.logo h2 {
+    color: var(--purple-dark);
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: calc(100% - 20px); /* Para compensar o padding */
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group input:focus {
+    border-color: var(--purple-light);
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(106, 90, 205, 0.2);
+}
+
+.login-button {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--purple-dark);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: var(--purple-light);
+}
+
+.error-message {
+    color: var(--red-error);
+    margin-top: 15px;
+    font-size: 0.9em;
+    display: none; /* Escondido por padrão */
+}
