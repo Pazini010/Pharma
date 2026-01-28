@@ -1,0 +1,1 @@
+Este projeto tem como objetivo modelar a hierarquia organizacional de uma empresa do setor farmacêutico, abordando a complexidade das relações entre cargos, níveis e responsabilidades. A aplicação está em desenvolvimento e ainda não foi concluída.
